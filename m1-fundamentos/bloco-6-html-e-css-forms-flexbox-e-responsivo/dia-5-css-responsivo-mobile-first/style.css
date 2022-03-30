@@ -11,15 +11,15 @@
 }
 
 body {
-
+  margin: 30px;
 }
 
 article {
-
+ font-size: large;
 }
 
 h1 {
-
+  /* font-size: small; */
 }
 
 h2 {
@@ -28,6 +28,7 @@ h2 {
 
 img {
     max-width: 100%;
+    margin-top: 20px;
 }
 
 main {
@@ -44,4 +45,8 @@ figure {
 
 figcaption {
   font-size: .8em;
+}
+
+@media screen and (max-width: 800px) {
+  
 }
