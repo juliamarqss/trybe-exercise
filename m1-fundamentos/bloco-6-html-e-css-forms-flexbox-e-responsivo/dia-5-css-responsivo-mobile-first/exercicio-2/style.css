@@ -8,15 +8,28 @@ html {
 
 /* Pequeno */
 @media screen and (max-width: 479px){
-  
+  body {
+    margin: 60px;
+    background-color: antiquewhite;
+  }
+
+  h1{
+    font-size: 25px;
+  }
 }
 
 /* Médio */
-@media screen and (max-width: 768px) {
-  
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  body {
+    margin: 60px;
+    background-color: aquamarine;
+  }
 }
 
 /* Grande */
 @media screen and (min-width: 769px) {
-  
+  body {
+    margin: 60px;
+    background-color: white;
+  }
 }
