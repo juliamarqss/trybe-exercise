@@ -18,25 +18,19 @@ article {
  font-size: large;
 }
 
-h1 {
-  /* font-size: small; */
-}
-
-h2 {
-
-}
-
 img {
     max-width: 100%;
     margin-top: 20px;
 }
 
-main {
-
+figure {
+  padding: 20px;
 }
 
 section {
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 figure {
@@ -47,6 +41,41 @@ figcaption {
   font-size: .8em;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 799px) {
+  img {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1299px) {
+  body {
+    background-color: rgb(199, 199, 199);
+  }
+  article {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  body {
+    background-color: aquamarine;
+    margin: 80px;
+  }
+
+  article {
+    font-size: xx-large;
+  }
+
+  h1 {
+    font-size: xxx-large;
+  }
   
+  h2 {
+    font-size: xx-large;
+  }
+
+  figcaption {
+    font-size: large;
+  }
 }
