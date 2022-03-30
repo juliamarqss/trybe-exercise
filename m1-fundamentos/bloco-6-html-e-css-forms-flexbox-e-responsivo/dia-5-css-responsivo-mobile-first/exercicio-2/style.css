@@ -5,3 +5,18 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
+/* Pequeno */
+@media screen and (max-width: 479px){
+  
+}
+
+/* Médio */
+@media screen and (max-width: 768px) {
+  
+}
+
+/* Grande */
+@media screen and (min-width: 769px) {
+  
+}
